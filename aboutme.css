@@ -3,6 +3,7 @@ body {
   <!-- background-color: #f44295; -->
   
   background-image: url("https://kimberlyn.github.io/portfolio/giphy.gif");
+  background-repeat: no-repeat;
   color: black;
 }
 
