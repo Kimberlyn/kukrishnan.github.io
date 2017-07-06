@@ -1,6 +1,6 @@
 @font-face {
     font-family: font;
-    src: url(kimberlyn.github.io/portfolio/font.ttf);
+    src: url(font.ttf);
 }
 
 
@@ -8,7 +8,7 @@ body {
   font-family: font;
   <!-- background-color: #f44295; -->
   
-  background-image: url("kimberlyn.github.io/portfolio/pic.jpg");
+  background-image: url("pic.jpg");
   background-repeat: no-repeat;
   color: black;
 }
