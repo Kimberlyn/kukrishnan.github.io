@@ -6,9 +6,9 @@
 
 body {
   font-family: font;
-  <!-- background-color: #f44295; -->
+  background-color: #f44295
   
-  background-image: url("pic.jpg");
+  <!--background-image: url("pic.jpg"); -->
   background-repeat: no-repeat;
   color: black;
 }
