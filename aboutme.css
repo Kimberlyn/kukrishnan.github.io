@@ -2,6 +2,7 @@
 @import url(//fonts.googleapis.com/css?family=Poiret+One);
 
 body {
+  background-image: url("portfolio/giphy.gif");
   font-family: 'Poiret One', cursive;
   color: black;
 }
