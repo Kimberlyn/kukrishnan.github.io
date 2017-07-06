@@ -1,5 +1,9 @@
 
 @import url(//fonts.googleapis.com/css?family=Poiret+One);
+@font-face {
+    font-family: myfont;
+    src: url(portfolio/font.ttf);
+}
 
 body {
   background: paleturquoise;
