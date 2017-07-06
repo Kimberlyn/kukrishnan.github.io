@@ -37,31 +37,3 @@ h1:hover, a:hover {
   margin: 10px;
 }
 
-hr.fancy-line { 
-    border: 0; 
-    height: 2px;
-
-}
-hr.fancy-line:before {
-    top: -0.5em;
-    height: 2em;
-}
-hr.fancy-line:after {
-    content:'';
-    height: 0.5em;
-    top: 2px;
-}
-
-hr.fancy-line:before, hr.fancy-line:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-}
-
-hr.fancy-line, hr.fancy-line:before {
-    background: radial-gradient(ellipse at center, rgb(0,0,0) 0%,rgb(4,153,164) 75%);
-}
-
-hr.fancy-line:after {
-    background: #000000;
-}
