@@ -20,6 +20,10 @@ a {
   display: inline
 }
 
+a:hover { 
+    background-color: rgba(35, 203, 216, 0.83);
+}
+
 #profile-pic{
   max-width: 90px;
 }
