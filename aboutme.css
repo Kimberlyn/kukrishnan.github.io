@@ -20,7 +20,7 @@ a {
   display: inline
 }
 
-a:hover { 
+h1:hover, a:hover { 
     color: rgba(35, 203, 216, 0.83);
 }
 
