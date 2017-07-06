@@ -62,6 +62,6 @@ hr.fancy-line, hr.fancy-line:before {
     background: radial-gradient(ellipse at center, rgb(0,0,0) 0%,rgb(4,153,164) 75%);
 }
 
-body, hr.fancy-line:after {
-    background: #f4f4f4;
+hr.fancy-line:after {
+    background: #000000;
 }
