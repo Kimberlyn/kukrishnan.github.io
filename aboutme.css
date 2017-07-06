@@ -21,7 +21,7 @@ a {
 }
 
 a:hover { 
-    background-color: rgba(35, 203, 216, 0.83);
+    color: rgba(35, 203, 216, 0.83);
 }
 
 #profile-pic{
