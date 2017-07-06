@@ -1,8 +1,4 @@
-@font-face {
-    font-family: font;
-    src: url(portfolio/font.ttf);
 
-}
 
 
 body {
@@ -11,7 +7,7 @@ body {
 }
 
 h1 {
-    font-family: font
+    font-family: 'Poiret One', cursive;
 }
 
 a {
