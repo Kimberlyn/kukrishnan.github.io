@@ -7,8 +7,8 @@
 
 body {
   background: paleturquoise;
-  font-family: 'Poiret One', cursive, bold;
-
+  font-family: 'Poiret One', cursive;
+  font-weight: 400;
 }
 
 h1 {
