@@ -6,9 +6,13 @@ body {
 }
 
 h1 {
-    font-family: 'Dosis', sans-serif;
-    padding-top:25px;
+    /*font-family: 'Dosis', sans-serif;*/
+    /*font-family: 'Dancing Script', cursive;*/
+   /* font-family: 'Amatic SC', cursive;*/
+    /*font-family: 'Rajdhani', sans-serif;*/
+    font-family: 'Advent Pro', sans-serif;
     text-align: center;
+    font-size: 50px;
 }
 
 
@@ -24,7 +28,7 @@ a.underline {
 }
 
 a:hover { 
-    color: pink;
+    color: paleturquoise;
 }
 
 p {
@@ -52,6 +56,7 @@ ul {
     margin:0;
     padding:0;
     text-align:center;
+    margin-bottom: 20px;
 
 
 }   
@@ -62,6 +67,7 @@ ul {
     padding-right: .6em;
     float: left;
     border-right: 1px solid #bbb;
+
 }
 
 li a {
@@ -94,16 +100,13 @@ img {
 
 .textbox {
   background:pink;
-  border-width:1px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  padding-right: 1px;
-  padding-left: 1px;
-  margin-top: 25px;
-  margin-bottom: 15px;
-  margin-right: 320px;
-  margin-left: 320px;
-
+  margin:auto;
+  border:1px solid #ccc;
+  border-width:1px 1px;
+  position: relative;
+  width:50%;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 
