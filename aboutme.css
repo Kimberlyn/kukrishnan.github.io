@@ -1,7 +1,7 @@
 
 
 body {
-  background: paleturquoise;
+  background-color: #f5eeee;;
   font-family: 'Dosis', sans-serif;
 }
 
@@ -24,30 +24,40 @@ a.underline {
 }
 
 a:hover { 
-    color: rgba(35, 203, 216, 0.83);
+    color: pink;
 }
 
 p {
     font-family: 'Dosis', sans-serif;
     text-align:center;
-    margin-right: 320px;
-    margin-left: 320px;
+
 }
 
 ul {
-    background-image: url("stars.jpg");
+    /*background-image: url("pink.png");*/
     background-repeat: repeat-x;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #000000;
+    background-color:white;
 
 
 }
 
-li {
+.nav {
+    border:1px solid #ccc;
+    border-width:1px 1px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
 
+
+}   
+
+.nav li {
+    display: inline;
     padding-left: .6em;
     padding-right: .6em;
     float: left;
@@ -56,11 +66,18 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
+
+li:last-child {
+    border-right: none;
+    border-left: 1px solid #bbb;
+}
+
+
 img {
     display: block;
     margin: 0 auto;
@@ -75,6 +92,19 @@ img {
 
 }
 
+.textbox {
+  background:pink;
+  border-width:1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  margin-right: 320px;
+  margin-left: 320px;
+
+}
 
 
 
@@ -84,6 +114,7 @@ body {font-family: 'Dosis',sans-serif;}
 
 /* Slideshow container */
 .slideshow-container {
+  padding-top: 25px;
   max-width: 1000px;
   position: relative;
   margin: auto;
